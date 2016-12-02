@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+<p id="demo"></p>
+
+<p id = "asd"></p>
+
+
+<script type="text/javascript">
+	function isEmpty(str)
+	{
+		this.str = str;
+
+		
+		if (str == "" || str == null) 
+			{
+				document.getElementById("demo").innerHTML = "true";
+				return true;
+			}
+			else if(str !=null){
+				document.getElementById("demo").innerHTML = "false";
+				return false;
+			}
+	}
+	var work = new isEmpty("");
+	document.getElementById("asd").innerHTML = "text is"+ " "+work.str;
+</script></body>
+</html>
