@@ -1,0 +1,233 @@
+/*Outer Box*/
+
+div#outerbox{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+     float:left;
+     } 
+     
+     
+/*rectangle top left*/
+
+
+div#leftinnerbox {
+    position: absolute;
+    top:20px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    float:left;
+}
+
+
+div.leftrectrects{
+	position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black; 
+}
+
+
+div#leftrectrect1{
+	top:10px;
+    left:20px;
+    float:left;
+}
+
+div#leftrectrect2{
+    top:10px;
+    right:20px;
+    float:right;
+}
+
+div#leftrectrect3{
+    bottom:10px;
+    left:20px;
+    float:left;
+}
+
+div#leftrectrect4{
+    bottom:10px;
+    right:20px;
+    float:right;
+}
+
+div#leftrectrect5{
+    top:38%;
+    left:43%;
+}
+
+
+/*rectangle top right*/
+
+div#rightinnerbox {
+    position: absolute;
+    top:20px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    float:right;
+}
+
+div.rightrectcicles{
+	position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-color: red;
+}
+
+
+div#rightrectcircle1{
+    top:10px;
+    left:20px;
+    float:left;
+    
+}
+
+div#rightrectcircle2{
+    top:10px;
+    right:20px;
+    float:right;
+    
+}
+
+div#rightrectcircle3{
+    bottom:10px;
+    left:20px;
+    float:left;
+    
+}
+
+div#rightrectcircle4{
+    bottom:10px;
+    right:20px;
+    float:right;
+    
+}
+
+div#rightrectcircle5{
+    top:38%;
+    left:43%;
+
+}
+
+
+
+/*rectangle bottom left*/
+
+div#bottomleftinnerbox {
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    float:left;
+}
+
+div.bottomleftrects{
+	position: absolute;
+    width: 45px;
+    height: 25px;
+    border: 2px solid blue; 
+}
+
+
+div#bottomleftrect1{
+	top:10px;
+    left:20px;
+    float:left;
+}
+
+div#bottomleftrect2{
+    top:10px;
+    right:20px;
+    float:right;
+}
+
+div#bottomleftrect3{
+    bottom:10px;
+    left:20px;
+    float:left;
+}
+
+div#bottomleftrect4{
+    bottom:10px;
+    right:20px;
+    float:right;
+}
+
+div#bottomleftrect5{
+    top:38%;
+    left:38%;
+}
+
+/*rectangle bottom right*/
+
+div#bottomrightinnerbox{
+ position: absolute;
+    bottom:20px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    float:right;
+}
+
+div.bottomrightrects{
+	position: absolute;
+    width: 45px;
+    height: 25px;
+    border: 2px solid purple; 
+    border-radius: 7px;
+}
+
+
+div#bottomrightrect1{
+	top:10px;
+    left:20px;
+    float:left;
+}
+
+div#bottomrightrect2{
+    top:10px;
+    right:20px;
+    float:right;
+}
+
+div#bottomrightrect3{
+    bottom:10px;
+    left:20px;
+    float:left;
+}
+
+div#bottomrightrect4{
+    bottom:10px;
+    right:20px;
+    float:right;
+}
+
+div#bottomrightrect5{
+    top:38%;
+    left:38%;
+}
+
+/*center circle*/
+
+
+div#centercircle{
+ 	position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    top:200px;
+    left:300px;
+    border-radius: 50%;  
+}
+
