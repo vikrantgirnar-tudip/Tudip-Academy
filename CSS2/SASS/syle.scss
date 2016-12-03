@@ -1,0 +1,24 @@
+$color1:#AF80ED;
+@mixin sub1
+{
+  p
+  {
+    
+    color:green;
+  }
+  
+  
+}
+span{
+  @extend h3;
+  
+  
+}
+h1{
+   color: color1;
+}
+
+h3{
+   color: #DE5E85;
+}
+@include sub1;
