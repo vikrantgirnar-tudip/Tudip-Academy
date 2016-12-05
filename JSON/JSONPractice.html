@@ -1,0 +1,61 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON Practice</title>
+	<script >
+		function like()
+		{
+			alert("jhfdjfd");
+			document.getelementById("image1").setAttribute("src","like.jpg");
+			document.getelementById("pr").innerHtml = "dfdfhdsfs";
+		}
+
+		function Dislike()
+		{
+			alert("jhfdjfd");
+		}
+	</script>
+</head>
+<body>
+<p id="pr">
+image is here</p>
+
+<img id="image1" src="">
+<br>
+<button onclick="like()">Like</button>
+<button onclick="Dislike()">Dislike</button>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function likeMe()
+		{
+
+
+
+		//document.getElementById('myImage').src='like.jpg';
+			document.getElementById('myImage').setAttribute("src","like.jpg");
+		}
+
+		function dislikeMe()
+		{
+		//document.getElementById('myImage').src='dislike.jpg';
+
+		document.getElementById('myImage').setAttribute("src","dislike.jpg");	
+		}
+	</script>
+</head>
+<body>
+
+
+
+<button onclick="likeMe()">Like Me</button>
+
+<img id="myImage" src="" style="width:100px">
+
+<button onclick="dislikeMe()">Dislike Me</button>
+
+</body>
+</html>

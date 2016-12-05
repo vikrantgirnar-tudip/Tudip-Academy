@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function like() {
+
+
+        document.getElementById('myImage').setAttribute("src","like.jpg");
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.likecount) {
+            localStorage.likecount = Number(localStorage.likecount)+1;
+            } else {
+            localStorage.likecount = 1;
+        }
+        document.getElementById("btlike").innerHTML = "Likes: " + localStorage.likecount ;
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+
+
+
+function dislike() {
+
+
+
+        document.getElementById('myImage').setAttribute("src","dislike.jpg");
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.dislikecount) {
+            localStorage.dislikecount = Number(localStorage.dislikecount)+1;
+        } else {
+            localStorage.dislikecount= 1;
+        }
+        document.getElementById("btdislike").innerHTML = "Dislikes:" + localStorage.dislikecount;
+
+        } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
+</head>
+<body>
+<button onclick="like()" type="button" id="btlike">Like</button>
+
+<img id="myImage" src="like.jpg" style="width:100px">
+<button onclick="dislike()" type="button" id="btdislike">Dislike</button>
+
+
+
+</body>
+</html>
